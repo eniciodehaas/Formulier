@@ -11,13 +11,24 @@
   <body>
     <h1> Een plan voor jouw ontwikkeling </h1>
     <h3> Om een eerste stap te maken naar een persoonlijk opleidingsplan zul je eerst een paar vragen over jezelf moeten beantwoorden. Dit formulier helpt je daar bij </h3>
-    <form action="http://bla.hosts.ma-cloud.nl/pop.php" method="post">
+    <form action="http://bla.hosts.ma-cloud.nl/pop.php" method="get">
   <div>
     Naam:
     <input type="text" class="naam" name="gebruiker_name" placeholder="Bv. Jan de Jong" autofocus>
   </div>
-
-    <fieldset>
+  <br>
+  <div>
+    In welke klas zit je?:
+    <select name="klas">
+      <option value="v73">Kies een klas</option>
+      <option value="v74">MG1A</option>
+      <option value="v75">MG1B</option>
+      <option value="v76">MG1C</option>
+      <option value="v77">MG1D</option>
+    </select>
+  </div>
+  <br>
+    <fieldset class="welbevinden">
       <legend> Welbevinden </legend>
 
       Hoe positief ben je op dit moment over de opleiding?
